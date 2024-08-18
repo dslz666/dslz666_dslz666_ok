@@ -1,9 +1,0 @@
-https://13x.one/api/v1/client/subscribe?token=adbf830da6c02e03f476f71f4988dfe0
-https://www.cooc.cloud/api/v1/client/subscribe?token=c28c7e09d169edb992b58ccb50d0615b
-https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=8907a411cb41cea0591a85c5b94bf2ef
-https://lanmaoyun.icu/api/v1/client/subscribe?token=20641e05a9fbbff05b448be9161a3167
-https://speedup.club/api/v1/client/subscribe?token=2ae0e3dbe4daf0829dfa08960dcfa105
-https://xueyejiasu.com/api/v1/client/subscribe?token=24c2bfc2b32f59a012e35f1db423ff84
-https://www.marst1.com/api/v1/client/subscribe?token=03cf6070d7b00e5d36bd184a35bada17
-https://www.xfxssr.com/api/v1/client/subscribe?token=0ae8beee7e300874e354792214d524a1
-https://www.sheepcloud.xyz/api/v1/client/subscribe?token=c0a667d12d1914ced7e32e1a3f494ce2
