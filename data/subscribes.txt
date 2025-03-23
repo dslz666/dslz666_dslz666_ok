@@ -1,6 +1,8 @@
-https://xueyejiasu.com/api/v1/client/subscribe?token=4bb365ce52471e10e9417468dd7274ed
-https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=46162f3ab56af2d25698cda21354ac83
-https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=df02f3db9f3546c7ca6f53c73a2ec017
-https://xueyejiasu.com/api/v1/client/subscribe?token=e86be0275c2f94cf0666163d64bf787c
-https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=a34e1f0cda48928e609174919f446f8c
 https://xueyejiasu.com/api/v1/client/subscribe?token=ecbcf30a393e5becefd1a28fa086a08c
+https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=46162f3ab56af2d25698cda21354ac83
+https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=a34e1f0cda48928e609174919f446f8c
+https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=df02f3db9f3546c7ca6f53c73a2ec017
+https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=80e7ff77eb23fc1a301990cdc2c783ea
+https://xueyejiasu.com/api/v1/client/subscribe?token=4bb365ce52471e10e9417468dd7274ed
+https://xueyejiasu.com/api/v1/client/subscribe?token=e86be0275c2f94cf0666163d64bf787c
+https://xueyejiasu.com/api/v1/client/subscribe?token=2b73c2f6c0dc22287e702a898db797fb
