@@ -5,25 +5,28 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 韩国-三网优化2-1C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f69b6e83-cd5c-48d7-a6b9-636f154ff8d5, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f7a3ef75-5c24-40fd-a7e8-fd35841674ee, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: cfa0f526-dd28-4f80-9751-276a34d33d37, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f69b6e83-cd5c-48d7-a6b9-636f154ff8d5, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 384e0e5f-070f-4781-bd9f-f4f3a644d798, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: cfa0f526-dd28-4f80-9751-276a34d33d37, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f7a3ef75-5c24-40fd-a7e8-fd35841674ee, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1A
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1A
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
   - name: 🎥 NETFLIX
     type: select
@@ -31,8 +34,9 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1A
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
   - name: ⛔️ 广告拦截
     type: select
@@ -52,8 +56,9 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1A
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
   - name: 🌏 国内媒体
     type: select
@@ -65,16 +70,18 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1A
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1A
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
   - name: 🍎 苹果服务
     type: select
@@ -82,8 +89,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1A
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
   - name: 🎯 全球直连
     type: select
@@ -100,8 +108,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1A
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
